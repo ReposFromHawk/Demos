@@ -9,4 +9,3 @@ M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\CareHo
 M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\CareHomeTaskManager.Core.dll
 M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\ref\CareHomeTaskManager.Core.dll
 M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\CareHomeTaskManager.Core.pdb
-M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\CareHomeTaskManager.Core.csproj.AssemblyReference.cache

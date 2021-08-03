@@ -1,0 +1,12 @@
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\bin\Debug\net5.0\CareHomeTaskManager.Core.deps.json
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\bin\Debug\net5.0\CareHomeTaskManager.Core.dll
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\bin\Debug\net5.0\ref\CareHomeTaskManager.Core.dll
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\bin\Debug\net5.0\CareHomeTaskManager.Core.pdb
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\CareHomeTaskManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\CareHomeTaskManager.Core.AssemblyInfoInputs.cache
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\CareHomeTaskManager.Core.AssemblyInfo.cs
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\CareHomeTaskManager.Core.csproj.CoreCompileInputs.cache
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\CareHomeTaskManager.Core.dll
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\ref\CareHomeTaskManager.Core.dll
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\CareHomeTaskManager.Core.pdb
+M:\VS\Demos\CareHomeTaskManager\CareHomeTaskManager.Core\obj\Debug\net5.0\CareHomeTaskManager.Core.csproj.AssemblyReference.cache

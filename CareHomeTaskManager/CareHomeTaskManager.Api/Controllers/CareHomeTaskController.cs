@@ -77,10 +77,11 @@ namespace CareHomeTaskManager.Api.Controllers
             }
             
         }
-        [Route("api/login")]
+        [Route("login")]
         [HttpPost]
-        public async Task<IActionResult> Login(User user)
+        public async Task<IActionResult> Login([FromBody]User user)
         {
+           
             var dbUser = _userManager.GetUser(user.Email);
             if (dbUser != null)
             {

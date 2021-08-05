@@ -28,11 +28,20 @@ namespace CareHomeTaskManager.Api
         private readonly AuthenticationSettings _settings;
 
         public IConfiguration Configuration { get; }
-
+        readonly string MyAllowSpecificOrigins = "AllowAll";
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: MyAllowSpecificOrigins,
+                                  builder =>
+                                  {
+                                      builder.AllowAnyOrigin()
+                                      .AllowAnyMethod()
+                                      .AllowAnyHeader();
+                                  });
+            });
             services.AddTransient<ICareTaskRepository, CareHomeTaskManagerRepository>();
             services.AddTransient<ICareTaskManager, CareTaskManager>();
             services.AddTransient<IUserRepository, UserRepository>();
@@ -66,6 +75,7 @@ namespace CareHomeTaskManager.Api
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -76,7 +86,7 @@ namespace CareHomeTaskManager.Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors(MyAllowSpecificOrigins);
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
